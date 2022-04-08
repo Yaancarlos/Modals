@@ -1,0 +1,107 @@
+.rounded-1r {
+    border-radius: 1rem !important;
+}
+
+.pb-2r {
+    padding-bottom: 2rem !important;
+}
+
+.example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.rounded-4 {
+    border-radius: .5rem !important;
+}
+
+.border-right {
+    border-right: 1px solid #eee !important;
+} 
+
+.huge-icon {
+    font-size: 48px;
+}
+
+.secondary {
+    color: #6c757d!important;
+}
+
+.c-yellow {
+    color: #ffc107 !important;
+}
+
+.primary {
+    color: #0d6efd !important;
+}
+
+.huge-icon::before {
+    vertical-align: 0 !important;
+}
+
+@media screen and (min-width: 576px) {  
+    .modal .modal-dialog {
+        width: 380px;
+        transition: bottom .75s ease-in-out;
+    }    
+
+    .modal div[type="000"] {
+        width: 500px;
+        transition: bottom .75s ease-in-out;
+    }
+}
+
+
+.input-p {
+    padding-top: 1.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.label-set {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
+
+/*.input-p:focus + .label-set {
+    opacity: .65 !important;
+    transform: scale(.85) translateY(-0.5rem) translateX(0.15rem) !important;
+}*/
+
+.input-p:not(:placeholder-shown)~label {
+    opacity: .65 !important;
+    transform: scale(.85) translateY(-0.5rem) translateX(0.15rem) !important;
+}
+
+.input-p:focus~label,  
+.form-select~label {
+    opacity: .65 !important;
+    transform: scale(.85) translateY(-0.5rem) translateX(0.15rem) !important;
+}
+
+.rounded-5 {
+    border-radius: 0.75rem !important;
+}
+
+@media screen and (max-width: 575px) {
+    .modal-dialog {
+        margin: 1.75rem auto !important;
+    }
+
+    .modal .modal-dialog {
+        width: auto !important;
+        transition: bottom .75s ease-in-out;
+    }
+    
+
+    .modal div[type="000"] {
+        width: auto !important;
+        transition: bottom .75s ease-in-out;
+    }
+
+    .p-sm-media {
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <div class="modal position-relative d-block bg-secondary py-5 p-sm-media">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-1r shadow">
+                    <div class="modal-header border-bottom-0">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body py-0">
+                        <p>This is a modal sheet, a variation of the modal that docs itself to the bottom of the viewport like the newer share sheets in iOS.</p>
+                    </div>
+                    <div class="modal-footer pb-2r flex-column border-top-0">
+                        <button type="button" class="btn btn-lg btn-primary w-100 mx-0 mb-2">Save changes</button>
+                        <button type="button" class="btn btn-lg btn-light w-100 mx-0" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="example-divider"></div>
+        <div class="modal d-block position-relative bg-secondary py-5 p-sm-media">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-4 shadow">
+                    <div class="modal-body p-4 text-center">
+                        <h5 class="mb-0">Enable this setting?</h5>
+                        <p class="mb-0">You can always change your mind in your account settings</p>
+                    </div>
+                    <div class="modal-footer flex-nowrap p-0">
+                        <button type="button" class="border-right btn btn-lg btn-link fs-6 text-decoration-none col-6 m-0 rounded-0 border-right">
+                            <strong>Yes, enable</strong>
+                        </button>
+                        <button type="button" class="btn btn-lg fs-6 text-decoration-none btn-link col-6 m-0 rounded-0">No thanks</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="example-divider"></div>
+        <div class="bg-secondary modal position-relative d-block py-5 p-sm-media">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-1r shadow">
+                    <div class="modal-body p-5">
+                        <h2 class="fw-bold mb-0">What's new</h2>
+                        <ul class="my-5 list-unstyled">
+                            <li class="d-flex mb-4">
+                                <i class="bi bi-grid-fill huge-icon me-4 secondary"></i>
+                                <div>
+                                    <h5 class="mb-0">Grid view</h5>
+                                    Not into lists? Try new grid view
+                                </div>
+                            </li>
+                            <li class="mb-4 d-flex">
+                                <i class="bi bi-bookmark-star huge-icon c-yellow me-4"></i>
+                                <div>
+                                    <h5 class="mb-0">Bookmarks</h5>
+                                    Save items you love for easy access later
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <i class="bi bi-film huge-icon primary me-4"></i>
+                                <div>
+                                    <h5 class="mb-0">Video embeds</h5>
+                                    Share videos wherever you go
+                                </div>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-primary mt-5 w-100">Great, thanks!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="example-divider"></div>
+        <div class="bg-secondary modal position-relative d-block py-5 p-sm-media">
+            <div class="modal-dialog" type="000"> 
+                <div class="modal-content rounded-5 shadow">
+                    <div class="modal-header p-5 pb-4 border-bottom-0">
+                        <h5 class="modal-title fw-bold mb-0">Sign up for free</h5>
+                        <button type="button" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body p-5 pt-0">
+                        <form action="">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control rounded-4 input-p" name="" id="inputOne" placeholder="example@idunno.settings">
+                                <label for="inputOne" class="label-set">Email address</label>
+                                <span class="fill-form"></span>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control rounded-4 input-p" placeholder="b!tch" name="" id="inputTwo">
+                                <label for="inputTwo" class="label-set">Password</label>
+                            </div>
+                            <button type="button" class="btn btn-lg btn-primary mb-2 w-100">Sign up</button>
+                            <small class="text-muted">By clicking Sign up, you agree to the terms os use</small>
+                            <hr class="my-4">
+                            <h2 class="fw-bold mb-3 fs-5">Or use a third-party</h2>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4" type="submit">
+                                <i class="bi bi-twitter me-1"></i>
+                                Sign up with twitter
+                            </button>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-4" type="submit">
+                                <i class="bi bi-facebook me-1"></i>
+                                Sign up with facebook
+                            </button>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-4" type="submit">
+                                <i class="bi bi-github me-1"></i>
+                                Sign up with github
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 
